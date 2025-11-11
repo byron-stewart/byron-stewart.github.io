@@ -4,7 +4,7 @@ body {
     color: #222;
     background-color: #f8f9fa;
     line-height: 1.6;
-    margin: 20px;
+    margin: 40px;
     padding: 0;
 }
 
@@ -34,15 +34,14 @@ h4 {
     line-height: 1.5;
 }
 
-/* Profile Image */
+/* Centered Profile Image */
 img.profile {
     border-radius: 100%;
     border: 2px solid #ccc;
     width: 180px;
     height: 200px;
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    display: block;         /* makes it a block element */
+    margin: 0 auto 20px;    /* top 0, auto left/right (center), bottom 20px */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -51,7 +50,7 @@ img.profile:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Container Section */
+/* About me Section has it's own width, margin, and padding. Change the numbers here to change those specs. */
 .about-me {
     max-width: 900px;
     margin: 0 auto;
