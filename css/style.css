@@ -4,9 +4,11 @@ body {
     color: #222;
     background-color: #f8f9fa;
     line-height: 1.6;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
+
+
 
 /* Accent color for headers and highlights */
 :root {
