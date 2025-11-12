@@ -64,8 +64,8 @@ h4 {
 img.profile {
     border-radius: 100%;
     border: 2px solid #ccc;
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 255px;
     display: block;         /* makes it a block element */
     margin: 0 auto 20px;    /* top 0, auto left/right (center), bottom 20px */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
