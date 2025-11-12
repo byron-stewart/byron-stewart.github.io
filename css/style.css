@@ -7,6 +7,7 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* subtle shadow for depth */
 }
 
+
 /* Global Styles */
 body {
     font-family: 'Raleway', sans-serif;
@@ -15,6 +16,16 @@ body {
     line-height: 1.6;
     margin: 40px;
     padding: 0;
+}
+
+/* Title (For Name) */
+.title-section {
+    background-color: #f1f3f4;  /* light grey header */
+    color: #222;                /* text readable */
+    text-align: center;          /* center all text inside */
+    padding: 50px 20px;         /* vertical + horizontal padding */
+    border-radius: 8px;         /* subtle rounded edges */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
 }
 
 
