@@ -81,10 +81,12 @@ img.profile:hover {
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 20px;
+    
 }
 
 /* Subheadings */
 .about-me h2 {
+    background-color: #ffff;  /* light grey header */
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--primary-color);
